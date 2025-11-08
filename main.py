@@ -13,6 +13,7 @@ for _e in _b:
 _g="AllInOne"
 _h="election_results.csv"
 
+# Updated valid USNs including both original and temporary ones
 _valid_usns = {f"4JN24MC{i:03d}" for i in range(1, 121)} | {
     '250801','251361','251183','251348','251240','251270','251281','251250',
     '251353','251233','251301','251292','250940','251277','251298','251226',
